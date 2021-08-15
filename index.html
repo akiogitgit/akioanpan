@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ポートフォリオ</title>
+  </head>
+
+  <body>
+    <div class="all">
+      <header>
+        <div class="head1">
+          <h2 class="head-left">ポートフォリオ</h2>
+          <div class="head-right">
+            <a
+              href="https://www.apple.com"
+              class="apple head-link"
+              target="_blank"
+              >Apple</a
+            >
+            <a
+              href="https://www.google.com"
+              class="googl head-link"
+              target="_blank"
+              >Google</a
+            >
+            <a href="#history">歴史</a>
+            <a href="#how-to-make">製法</a>
+            <a href="#each-place">各地</a>
+            <a class="login" id="login-show">ログイン</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="signup-modal-wrapper" id="signup-modal">
+        <div class="modal">
+          <div class="close-modal">
+            <i class="fa fa-2x fa-times"></i>
+          </div>
+          <div id="signup-form">
+            <h2 class="form-message">Emailで新規登録</h2>
+            <form action="#">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="メールアドレス"
+              />
+              <input
+                required
+                class="form-control"
+                type="password"
+                placeholder="パスワード"
+                max="10"
+                pattern="^[0-9A-Za-z]+$"
+              />
+              <div id="submit-btn">新規登録</div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="middle">
+        <div class="all-anpan">
+          <div id="history">
+            <div class="history-title anpan-title">
+              <h1>歴史</h1>
+            </div>
+            <p>
+              あんパンは1874年（明治7年）に、木村屋（現・木村屋總本店）創業者であり茨城県出身の元士族・木村安兵衛とその次男の木村英三郎によって考案された[1]。
+              胡麻、芥子などと並んで表面のアクセントに用いられることの多い桜の花の塩漬けが初めて用いられたのは翌1875年（明治8年）4月4日のこと。花見のため向島の水戸藩下屋敷へ行幸した明治天皇に山岡鉄舟が献上し、宮内省御用達となって以来である[2][1]。それ以降、4月4日は「あんぱんの日」となっている。御用達となったことにより、あんパンと共に木村屋の全国的な知名度も向上し、1897年（明治30年）前後には全国的にあんパンが流行。木村屋では1日10万個以上売れ、長蛇の列で30分以上待たさせることもあったという[2]。
+              欧米でパン生地づくりに酵母として使うイースト菌が当時の日本で希少だったこともあり、木村屋では酒種で生地を発酵させた。上記の流行は、日清戦争で日本各地から集散した兵士に、あんパンが支給されたことがきっかけとなった[3]。それ以降、4月4日は「あんぱんの日」となっている。御用達となったことにより、あんパンと共に木村屋の全国的な知名度も向上し、1897年（明治30年）前後には全国的にあんパンが流行。木村屋では1日10万個以上売れ、長蛇の列で30分以上待たさせることもあったという。
+            </p>
+
+            <div id="how-to-make">
+              <div class="how-to-make-title anpan-title">
+                <h1>製法</h1>
+              </div>
+              <p>
+                木村屋のあんパンは、パン酵母（ホップを用いたもの）の代わりに、酒饅頭の製法に倣い日本酒酵母を含む酒種（酒母、麹に酵母を繁殖させたもの）を使った[1]。パンでありながらも、和菓子に近い製法を取り入れ、パンに馴染みのなかった当時の日本人にも親しみやすいように工夫して作られていた。
+                現代では中の餡はつぶあん、こしあんの小豆餡が一般的である。中には、インゲンマメを使った白あんパンや、イモあんパン、栗あんパンなどの豆以外の餡を使ったもの、桜あんやうぐいすあんを使った季節のあんパンもある。
+                典型的な形状は平たい円盤。ケシの実（ケシの種）、塩漬けの桜の花（ヤエザクラ）、ゴマの実が飾りに乗せられる。
+                あんパンを揚げたものは揚げあんパンやあんドーナツとも呼ばれる。さらには、トーストに餡を挟んで揚げたものもある。
+              </p>
+            </div>
+
+            <div id="each-place">
+              <div class="each-place-title anpan-title">
+                <h1>各地のあんぱん</h1>
+              </div>
+              <div class="big-moon">
+                <div class="moon">
+                  <h2>月寒あんぱん</h2>
+                </div>
+                <p>
+                  北海道札幌市豊平区月寒では明治時代後期に、木村屋のあんパンの話を元に「月寒あんぱん」を作り出した。製法や実物などの情報が乏しかったため、パンというよりも月餅に近いサイズと食感を持ったものとなった。当時の陸軍歩兵第25連隊の兵士にとって、重労働の後のエネルギー源としてもてはやされ、それによって出来た道路に「アンパン道路」と名付けるほどだった[4]。現在では、ほんまが製造し、道外でも販売されている。
+                </p>
+              </div>
+              <div class="big-river">
+                <div class="river">
+                  <h2>川口あんぱん</h2>
+                </div>
+                <p>
+                  青森県北津軽郡板柳町には、「川口あんぱん」と呼ばれる、小麦粉を原料としたカステラ風の生地で白あんを包んだ饅頭状の和菓子が存在する。これは明治初期（1880年）に考案されたといわれるが、月寒あんぱん同様名称以外に詳細な情報が存在しなかったため、既存の製菓技術を用いてオーブンで仕上げた焼き菓子になったと見られる。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+
+  <footer>
+    <div footer-left></div>
+    <div footer-right>
+      <a
+        href="https://twitter.com/?lang=ja"
+        class="twitter footer-icon"
+        target="_blank"
+      >
+        <span class="fa fa-twitter"></span>
+      </a>
+      <a
+        href="https://ja-jp.facebook.com/"
+        class="facebook footer-icon"
+        target="_balck"
+      >
+        <span class="fa fa-facebook"></span>
+      </a>
+
+      <div class="copyright">©2021-akio-Portfolio</div>
+      <a class="top-btn">-Top-</a>
+    </div>
+  </footer>
+</html>
